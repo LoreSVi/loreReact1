@@ -1,10 +1,12 @@
- 
- export const ItemListContainer = ( {nombre, apellido} )=> {
 
-    return (
-        <>
-    <h1> Lista de productos</h1>
-    <h3>Hola {nombre}</h3>
+// eslint-disable-next-line react/prop-types
+export const ItemListContainer = ({nombre, saludo}) => {
+  return (
+    <>
+      <h1> Lista de productos</h1>
+      <h3>
+        {saludo} {nombre}
+      </h3>
     </>
-    );
+  );
 };
