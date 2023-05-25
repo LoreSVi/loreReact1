@@ -1,13 +1,16 @@
+import { BsFillCartCheckFill } from "react-icons/bs";
+
 const Navbar = () => {
   return (
     <div>
-      <h4>imagen</h4>
+      <h1>DogStore Mila</h1>
       <ul>
-        <li>indumentaria</li>
-        <li>tops/sweters</li>
-        <li>pantalones</li>
-        <h3>icono carrito</h3>
+        <li>Alimento y Snacks</li>
+        <li>Higiene</li>
+        <li>Juguetes</li>
+        <li>Pulguisidas</li>
       </ul>
+      <BsFillCartCheckFill color="purple" size="23px" />
     </div>
   );
 };
