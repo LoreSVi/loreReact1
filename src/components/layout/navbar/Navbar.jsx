@@ -1,5 +1,4 @@
 import { BsFillCartCheckFill } from "react-icons/bs";
-import "./navbar.module.css";
 
 const Navbar = () => {
   return (
