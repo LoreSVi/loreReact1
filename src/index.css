@@ -6,7 +6,7 @@
 
 nav {
   position: relative;
-  background-color: rgb(91, 195, 91);
+  background-color: rgb(209, 113, 23);
   padding: 5px;
 }
 nav span {
@@ -27,10 +27,10 @@ nav ul li {
   margin-right: 30px;
   margin-left: 10px;
   list-style: none;
-  color: rgb(96, 69, 39);
+  color: aliceblue;
   font-size: large;
 }
 
 nav ul li:hover {
-  color: rgb(181, 20, 25);
+  color: rgb(74, 6, 62);
 }

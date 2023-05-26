@@ -15,7 +15,7 @@ const Navbar = () => {
           <li>Pulguisidas</li>
           <li>
             {" "}
-            <BsFillCartCheckFill color="#b22222" size="23px" />
+            <BsFillCartCheckFill color="white" size="23px" />
             <span>1</span>
           </li>
         </ul>
