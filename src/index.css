@@ -4,34 +4,36 @@
   box-sizing: border-box;
 }
 
-.nav {
+nav {
   position: relative;
-  background-color: rgb(210, 171, 94);
+  background-color: rgb(91, 195, 91);
+  padding: 5px;
 }
-.nav span {
+nav span {
   position: absolute;
 }
 
 .nav img {
-  width: 100px;
+  width: 50px;
 }
-.nav ul {
-  display:flex; 
-  justify-content:space-between;
+nav ul {
+  display: flex;
+  justify-content: center;
   align-items: center;
-
+  gap: 60px;
 }
 
-.nav ul li {
+nav ul li {
   margin-right: 30px;
   margin-left: 10px;
   list-style: none;
-  
+  color: rgb(96, 69, 39);
+  font-size: large;
 }
-.nav ul li a {
+nav ul li a {
   color: black;
   font-size: 2em;
 }
-.nav ul li a:hover {
-  color: blueviolet;
+nav ul li:hover {
+  color: rgb(181, 20, 25);
 }
