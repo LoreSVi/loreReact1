@@ -30,10 +30,7 @@ nav ul li {
   color: rgb(96, 69, 39);
   font-size: large;
 }
-nav ul li a {
-  color: black;
-  font-size: 2em;
-}
+
 nav ul li:hover {
   color: rgb(181, 20, 25);
 }
