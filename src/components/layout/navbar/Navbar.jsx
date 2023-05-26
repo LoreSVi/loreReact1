@@ -6,7 +6,7 @@ const Navbar = () => {
        <div>
        <ul>
    <li> <img
-        src="https://res.cloudinary.com/dtgaqvham/image/upload/v1685105298/DogStoreMilaLogosm_bdlz7e.png"
+        src="https://res.cloudinary.com/dtgaqvham/image/upload/v1685109032/storeMila_y30ier.png"
         alt="imagen logo"
       /></li>  
           <li>Alimento y Snacks</li>
