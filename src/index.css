@@ -1,8 +1,37 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-@import"Navbar.module";
+.nav {
+  position: relative;
+  background-color: rgb(210, 171, 94);
+}
+.nav span {
+  position: absolute;
+}
 
+.nav img {
+  width: 100px;
+}
+.nav ul {
+  display:flex; 
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.nav ul li {
+  margin-right: 30px;
+  margin-left: 10px;
+  list-style: none;
+  
+}
+.nav ul li a {
+  color: black;
+  font-size: 2em;
+}
+.nav ul li a:hover {
+  color: blueviolet;
+}

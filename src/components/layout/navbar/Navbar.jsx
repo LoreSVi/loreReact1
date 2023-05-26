@@ -3,18 +3,21 @@ import { BsFillCartCheckFill } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="nav">
-      <img
+     
+      <ul>
+      <li> <img
         src="https://res.cloudinary.com/dtgaqvham/image/upload/v1684949095/LogoSample_ByTailorBrands_eft7pt.png"
         alt="imagen logo"
-      />
-      <ul>
+      />   </li>
         <li>Alimento y Snacks</li>
         <li>Higiene</li>
         <li>Juguetes</li>
         <li>Pulguisidas</li>
-      </ul>
-      <BsFillCartCheckFill color="purple" size="23px" />
+       <li> <BsFillCartCheckFill color="purple" size="23px" />
       <span>1</span>
+    </li>
+      </ul>
+     
     </div>
   );
 };
