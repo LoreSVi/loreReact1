@@ -1,0 +1,31 @@
+nav {
+    position: relative;
+    background-color: rgb(209, 113, 23);
+    padding: 5px;
+  }
+  nav span {
+    position: absolute;
+  }
+  
+  .nav img {
+    width: 50px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+    margin-left: 10px;
+    list-style: none;
+    color: aliceblue;
+    font-size: large;
+  }
+  
+  nav ul li:hover {
+    color: rgb(74, 6, 62);
+  }
+  
