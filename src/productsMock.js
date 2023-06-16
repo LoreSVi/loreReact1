@@ -1,38 +1,38 @@
 export const products = [
     {
         id: 1,
-        title: "chaqueta gamuza",
-        price: 7000,
+        title: "Purina excellent Adult Maintenance",
+        price: 14000,
         stock: 3,
-        description: "Chaqueta de gamuza negra canchera",
-        category: "abrigos",
-        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686826162/chaquetagamuza_hpnmkb.png"
+        description: "Alimento balanceado Adult Maintenance 20kg",
+        category: "alimentoySnacks",
+        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686883267/alimentoB_xionbq.png"
     },
     {
         id: 2,
-        title: "remera Olé",
-        price: 900,
+        title: "Osspret Shampoo cachorros",
+        price: 2300,
         stock: 3,
-        description: "Remera casual negra con inscripción en el pecho",
-        category: "remeras",
-        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686826271/remeole_cthd5t.png"
+        description: "Shampoo antiséptico ph controlado cachorros",
+        category: "higiene",
+        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686885839/shampoo_zekhyt.png"
     },
     {
         id: 3,
-        title: "mono tropical",
-        price: 2000,
+        title: "Can Hueso",
+        price: 4300,
         stock: 2,
-        description: "Mono fresco floreado",
-        category: "Enterizos",
-        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686826211/monotropical_y2ytdy.png"
+        description: "antistress toy",
+        category: "juguetes",
+        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686885824/huesitojuguet_duiycx.png"
     },
     {
         id: 4,
-        title: "bluza borlas",
-        price: 1700,
+        title: "Bravecto",
+        price: 5700,
         stock: 1,
-        description: "Bluza color salmón con detalle borlas",
-        category: "musculosas",
-        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686826243/blusaborlas_zeb1l2.png"
+        description: "Antipulgas y antigarrapaticida perros 2 a 5kg",
+        category: "pulguisidas",
+        img: "https://res.cloudinary.com/dtgaqvham/image/upload/v1686885335/antipulgaygarrapata_kx20ge.jpg"
     }
 ]

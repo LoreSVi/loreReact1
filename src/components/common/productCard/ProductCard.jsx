@@ -10,9 +10,9 @@ import {
   
   const ProductCard = ({ elemento }) => {
     return (
-      <Card sx={{ width: 345, height: 350, backgroundColor: "white" }}>
+      <Card sx={{ width: 345, height: 450, backgroundColor: "white" }}>
         <CardMedia
-          sx={{ height: 140 }}
+          sx={{ height: 250 }}
           image={elemento.img}
           title="green iguana"
         />
@@ -34,7 +34,7 @@ import {
         </CardContent>
         <CardActions style={{ display: "flex", justifyContent: "center" }}>
           <Link to={`/itemDetail/${elemento.id}`}>
-            <Button
+            <Button 
               variant="contained"
               size="small"
               sx={{ textTransform: "none" }}
