@@ -1,5 +1,5 @@
 import Layout from "./components/layout/Layout";
-
+import Form from "./components/pages/Form/Form";
 import CartContainer from "./components/pages/cart/CartContainer";
 import ProductDetailContainer from "./components/pages/productDetail/ProductDetailContainer";
 import ProductsListContainer from "./components/pages/productsList/ProductsListContainer";
@@ -13,11 +13,16 @@ const App = () => {
         <Route element={<Layout />}>
           <Route path="/" element={<ProductsListContainer />} />
 
-          <Route path="/category/:categoryName" element={<ProductsListContainer />} />
+          <Route
+            path="/category/:categoryName"
+            element={<ProductsListContainer />}
+          />
 
           <Route path="/itemDetail/:id" element={<ProductDetailContainer />} />
-          
+
           <Route path="/carrito" element={<CartContainer />} />
+
+          <Route path="/form" element={<Form />} />
         </Route>
 
         <Route path="*" element={<h1>404 not found</h1>} />
