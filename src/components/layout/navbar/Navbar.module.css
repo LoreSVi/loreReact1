@@ -1,5 +1,5 @@
 .containerNavbar {
-position: relative;
+  position: relative;
   width: 100%;
   height: 10vh;
   display: flex;
@@ -14,11 +14,11 @@ a {
   color: white;
   font-weight: bold;
 }
-li{
+li {
   list-style: none;
 }
 
-.categories{
+.categories {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,36 +33,3 @@ li{
   justify-content: space-between;
   border-radius: 10px;
 }
-
-/*
-nav {
-    position: relative;
-   
-    padding: 5px;
-  }
-  nav span {
-    position: absolute;
-  }
-  
-  .nav img {
-    width: 50px;
-  }
-  nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-  }
-  
-  nav ul li {
-    margin-right: 30px;
-    margin-left: 10px;
-    list-style: none;
-    color: aliceblue;
-    font-size: large;
-  }
-  
-  nav ul li:hover {
-    color: rgb(74, 6, 62);
-  }
-  */
