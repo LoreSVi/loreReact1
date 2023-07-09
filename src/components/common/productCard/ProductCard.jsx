@@ -10,7 +10,7 @@ import {
   
   const ProductCard = ({ elemento }) => {
     return (
-      <Card sx={{ width: 345, height: 450, backgroundColor: "white" }}>
+      <Card sx={{ width: 325, height: 450, backgroundColor: "white" }}>
         <CardMedia
           sx={{ height: 250 }}
           image={elemento.img}

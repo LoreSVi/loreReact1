@@ -4,7 +4,7 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(209, 113, 23);
+  background-color: #36688D;
   align-items: center;
   padding: 10px;
 }
@@ -25,11 +25,10 @@ li {
   gap: 20px;
 }
 .categories a {
-  background-color: beige;
-  padding: 10px 20px;
-  color: rgb(74, 6, 62);
+ font-size: large;
+ font-weight: 100;
   width: 100px;
-  display: flex;
+  display:flex;
   justify-content: space-between;
-  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
 }

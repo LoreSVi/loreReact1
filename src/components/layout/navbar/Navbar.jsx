@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className={styles.containerNavbar}>
-        <Link to="/">DogShop
+        <Link to="/">
         <img
         src="https://res.cloudinary.com/dtgaqvham/image/upload/v1685109032/storeMila_y30ier.png"
         alt="imagen logo"></img>
@@ -23,7 +23,7 @@ const Navbar = () => {
         </ul>
 
         <Link to="/carrito">
-          <Badge badgeContent={2} color="secondary">
+          <Badge badgeContent={2} color="warning">
             <BsFillCartCheckFill size="30px" />
           </Badge>
         </Link>
