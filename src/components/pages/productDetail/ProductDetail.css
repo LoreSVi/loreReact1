@@ -7,16 +7,17 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
-  background-color: #6c729a;
+  background-color: rgb(155, 159, 61);
   background-position: center;
   background-repeat: no-repeat;
   background-size:auto;
   margin-left: 20px;
+  border-radius: 20px;
 }
 
 .item-card {
   display: flexbox;
-  background-color: #6c729a;
+  background-color:#c7ccea;
   color:black;
   border-color: black;
   padding: 40px;

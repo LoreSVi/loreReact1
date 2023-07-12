@@ -15,6 +15,7 @@ const ProductDetail = ({ productSelected }) => {
   return (
     <>
       <div className="card">
+  
         <div className="item-card">
           <h2>{productSelected.title}</h2>
           <img src={productSelected.img} alt="" />
@@ -28,11 +29,10 @@ const ProductDetail = ({ productSelected }) => {
           ) : (
             <h3>No hay stock</h3>
           )}
-          </div>
-       </div>
+        </div>
+      </div>
     </>
   );
 };
-
 
 export default ProductDetail;
