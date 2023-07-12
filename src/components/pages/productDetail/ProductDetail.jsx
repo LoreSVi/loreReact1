@@ -1,7 +1,6 @@
 import { ItemCount } from "../../common/ItemCount";
 import "./ProductDetail.css";
 
-
 const ProductDetail = ({ productSelected }) => {
   const onAdd = (cantidad) => {
     let data = {
@@ -15,11 +14,11 @@ const ProductDetail = ({ productSelected }) => {
   return (
     <>
       <div className="card">
-  
         <div className="item-card">
           <h2>{productSelected.title}</h2>
           <img src={productSelected.img} alt="" />
-
+          <p>{productSelected.description}</p>
+          <p>Precio:${productSelected.price}</p>
           {productSelected.stock > 0 ? (
             <ItemCount
               stock={productSelected.stock}
