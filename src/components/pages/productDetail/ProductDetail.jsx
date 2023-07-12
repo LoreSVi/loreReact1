@@ -1,14 +1,13 @@
 import { ItemCount } from "../../common/ItemCount";
 import "./ProductDetail.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ProductDetail = ({ productSelected }) => {
-  const onAdd = (cantidad) => {
-    let data = {
-      ...productSelected,
-      quantity: cantidad,
-    };
+  const [quantityAdded, setQuantityAdded] = useState(0);
 
-    console.log(data);
+  const onAdd = (cantidad) => {
+    setQuantityAdded(cantidad);
   };
 
   return (
@@ -19,14 +18,16 @@ const ProductDetail = ({ productSelected }) => {
           <img src={productSelected.img} alt="" />
           <p>{productSelected.description}</p>
           <p>Precio:${productSelected.price}</p>
-          {productSelected.stock > 0 ? (
+          {quantityAdded > 0 ? (
+            <Link to="/cart" className="Option">
+              Terminar compra
+            </Link>
+          ) : (
             <ItemCount
               stock={productSelected.stock}
               initial={1}
               onAdd={onAdd}
             />
-          ) : (
-            <h3>No hay stock</h3>
           )}
         </div>
       </div>
