@@ -15,11 +15,11 @@ const Navbar = () => {
         alt="imagen logo"></img>
         </Link>
         <ul className={styles.categories}>
-          <Link to="/">Limpiar filtros</Link>
-          <Link to="/category/alimentoySnacks">Alimento y Snacks</Link>
-          <Link to="/category/higiene">Higiene</Link>
-          <Link to="/category/juguetes">Juguetes</Link>
-          <Link to="/category/pulguisidas">Pulguisidas</Link>
+         <button><Link to="/">Limpiar filtros</Link></button> 
+         <button><Link to="/category/alimentoySnacks">Alimento y Snacks</Link></button>
+         <button><Link to="/category/higiene">Higiene</Link></button>
+         <button><Link to="/category/juguetes">Juguetes</Link></button>
+         <button><Link to="/category/pulguisidas">Pulguisidas</Link></button>
         </ul>
 
         <Link to="/carrito">

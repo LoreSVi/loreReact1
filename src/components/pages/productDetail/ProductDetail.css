@@ -1,22 +1,24 @@
 .card {
-  width: 100%;
+  width: 70%;
   min-height: 90vh;
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
-  background-image: url("https://res.cloudinary.com/dtgaqvham/image/upload/v1686886726/perropasto_lkcyst.png");
+  padding: 10px;
+  background-color: #6c729a;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:auto;
+  margin-left: 20px;
 }
 
-.itemcard {
+.item-card {
   display: flexbox;
-  background-color: antiquewhite;
-  color: aliceblue;
-  border-color: bisque;
+  background-color: #6c729a;
+  color:black;
+  border-color: black;
   padding: 40px;
+  border-radius: 20px;
 }
