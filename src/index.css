@@ -66,3 +66,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.estilocarrito{
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(155, 159, 61);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto;
+  margin-left: 20px;
+  border-radius: 20px
+  }
+

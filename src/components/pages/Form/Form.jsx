@@ -8,7 +8,6 @@ const Form = () => {
   const handleSubmit = (evento) => {
      evento.preventDefault()
 
-     //mandarle info al back- para loguearme
   };
 
   const handleName = (evento) =>{
