@@ -1,11 +1,10 @@
-import styles from "./Footer.module.css";
-
-import { Link } from "react-router-dom";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 const Footer = () => {
   return (
-    <div className={styles.containerFooter}>
-      <h1>footer</h1>
+    <div>
+      <h4>Para consultas puedes visitar nuestras redes:</h4>
+      <FacebookIcon fontSize="large" color="primary" />
     </div>
   );
 };
