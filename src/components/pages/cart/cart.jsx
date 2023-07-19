@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import "./Cart.css";
 
-const Cart = ({ cart, limpiar, removeById, total}) => {
+const Cart = ({ cart, limpiar, removeById, total, totalItems}) => {
   return (
     <div>
       <div className="cart-container">
@@ -25,7 +25,7 @@ const Cart = ({ cart, limpiar, removeById, total}) => {
         </div>
         <div className="cart-info">
           <h2>Descripcion del carrito:</h2>
-          <h3>Cantidad de productos:</h3>
+          <h3>Cantidad de productos: {totalItems}</h3>
           <h3>Precio total: {total}</h3>
           {cart.length > 0 ? (
             <div className="btn-cart">

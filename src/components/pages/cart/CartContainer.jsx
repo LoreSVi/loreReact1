@@ -4,10 +4,11 @@ import Swal from "sweetalert2";
 import Cart from "./cart";
 
 const CartContainer = () => {
-  const { cart, clearCart, removeById, getTotalPrice } =
+  const { cart, clearCart, removeById, getTotalPrice, getTotalItems } =
     useContext(CartContext);
 
   let total = getTotalPrice();
+  let totalItems = getTotalItems();
 
   const limpiar = () => {
     Swal.fire({
@@ -34,6 +35,7 @@ const CartContainer = () => {
         limpiar={limpiar}
         cart={cart}
         removeById={removeById}
+        totalItems={totalItems}
       />
     </div>
   );
