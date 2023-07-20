@@ -6,7 +6,7 @@ import { collection, addDoc, updateDoc, doc } from "firebase/firestore";
 import { useContext, useState } from "react";
 import { CartContext } from "../../../context/CartContext";
 import { green } from "@mui/material/colors";
-import { Link } from "react-router-dom";
+
 
 const CheckoutContainer = () => {
   const { cart, getTotalPrice, clearCart } = useContext(CartContext);

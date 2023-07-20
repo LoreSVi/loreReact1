@@ -12,7 +12,7 @@ const FormFormik = () => {
     },
     onSubmit: (datos) => {
       console.log("el formulario se envio");
-      // conecto con la api
+     
       console.log(datos);
     },
     validateOnChange: false,

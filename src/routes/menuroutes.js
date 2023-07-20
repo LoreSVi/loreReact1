@@ -40,5 +40,6 @@ export const menuRoutes = [
     id: "checkout",
     path: "/checkout",
     Element: CheckoutContainer,
-  },
+  }
+
 ];
