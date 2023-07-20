@@ -1,19 +1,21 @@
-
-.formDesign{
-    display: flex;
-    flex-direction: column;
+.formDesign {
+  display: flex;
+  flex-direction: column;
 }
 
-.formDesign input{
-    padding: 20px;
-    margin-top: 5px;
-    width: 280px;
+.formDesign input {
+  padding: 20px;
+  margin-top: 5px;
+  width: 280px;
 }
 
-.compraOk h4{   
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    color: rgb(82, 77, 77);
+.compraOk h4 {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.maincontainer {
+  background-color: blanchedalmond;
 }
