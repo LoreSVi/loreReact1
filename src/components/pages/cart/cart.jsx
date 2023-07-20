@@ -35,6 +35,9 @@ const Cart = ({ cart, limpiar, removeById, total, totalItems}) => {
               <Link to="/checkout">
                 <Button variant="contained">Finalizar compra</Button>
               </Link>
+              <Link to="/">
+              <Button variant="contained">Seguir comprando</Button>
+            </Link>
             </div>
           ) : (
             <Link to="/">

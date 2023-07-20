@@ -8,8 +8,8 @@ const ProductDetail = ({ productSelected, cantidad, onAdd }) => {
         <div className="item-card">
         <h2>{productSelected.title}</h2>
         <img src={productSelected.img} alt="" />
-        <h4>{productSelected.price}</h4>
-        <h4>{productSelected.description}</h4>
+         <h4>{productSelected.description}</h4>
+         <h4>${productSelected.price}</h4>
      </div>
       {productSelected.stock > 0 ? (
         <div style={{ display: "flex", justifyContent: "center" }}>

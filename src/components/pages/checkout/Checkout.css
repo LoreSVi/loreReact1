@@ -1,0 +1,19 @@
+
+.formDesign{
+    display: flex;
+    flex-direction: column;
+}
+
+.formDesign input{
+    padding: 20px;
+    margin-top: 5px;
+    width: 280px;
+}
+
+.compraOk h4{   
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(82, 77, 77);
+}

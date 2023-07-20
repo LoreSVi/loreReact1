@@ -49,7 +49,7 @@ const CartContextProvider = ({ children }) => {
     localStorage.setItem( "cart", JSON.stringify(newArray) )
   }
   const getTotalQuantityById = (id)=>{
-      let producto = cart.find( prod => prod.id === +id)
+      let producto = cart.find( prod => prod.id === id)
       console.log(producto?.quantity)
       return producto?.quantity
   }
