@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color:  #dadbed;
+  color: grey;
   text-decoration: inherit;
 }
 a:hover {
@@ -42,7 +42,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #6c729a;
+  background-color: #edf9c0;
   cursor: pointer;
   transition: border-color 0.25s;
 }

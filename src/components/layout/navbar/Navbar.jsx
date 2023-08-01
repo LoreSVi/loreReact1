@@ -13,6 +13,7 @@ const Navbar = () => {
 
   return (
     <>
+    <header role="banner">
       <div className={styles.containerNavbar}>
         <Link to="/">
           <img
@@ -38,6 +39,7 @@ const Navbar = () => {
           </Badge>
         </Link>
       </div>
+      </header>
     </>
   );
 };

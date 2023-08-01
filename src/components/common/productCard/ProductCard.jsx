@@ -11,22 +11,22 @@ import { Link } from "react-router-dom";
 
 const ProductCard = ({ elemento }) => {
   return (
-    <Card sx={{ width: 325, height: 500, backgroundColor: "#6c729a" }}>
+    <Card sx={{ width: 220, height: 400, backgroundColor: "#edf9" }}>
       <CardMedia
-        sx={{ height: 250 }}
+        sx={{ height: 200 }}
         image={elemento.img}
         title="green iguana"
       />
-      <CardContent sx={{ height: 150 }}>
+      <CardContent sx={{ height: 120 }}>
         <Typography
           gutterBottom
-          variant="h5"
+          variant="h6"
           component="div"
           textAlign={"center"}
         >
           {elemento.title}
         </Typography>
-        <Typography variant="h6" color="text.secondary" textAlign={"center"}>
+        <Typography variant="p" color="text.secondary" textAlign={"center"}>
           {elemento.description}
         </Typography>
         <Typography variant="subtitle1" textAlign={"center"}>
@@ -38,6 +38,7 @@ const ProductCard = ({ elemento }) => {
           <Button
             variant="contained"
             size="small"
+            color="secondary"
             sx={{ textTransform: "none" }}
           >
             Ver detalle

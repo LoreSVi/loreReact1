@@ -1,12 +1,24 @@
 .containerNavbar {
-  display: flex;
+  display: flex!important;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   margin: 10px; 
+  box-sizing:border-box;
+  width: 100%;
 }
 .categories {
   gap: 10px;
   font-size:larger;
   
+}
+header{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff159;
+  border: 0;
+  position: relative;
+  box-sizing: border-box;
 }
