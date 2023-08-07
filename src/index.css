@@ -6,7 +6,7 @@
   background-size: cover;
   color-scheme: light dark;
   color: aliceblue;
-  background-image: url("https://res.cloudinary.com/dtgaqvham/image/upload/v1686886726/perropasto_lkcyst.png");
+  background-color: #f9eeee;
   background-position: center;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,12 +22,10 @@ a:hover {
   color: #da7032;
 }
 
-body {
+* {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -54,18 +52,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #bd0da0;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #d89f0e;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
 .estilocarrito{
   justify-content: center;

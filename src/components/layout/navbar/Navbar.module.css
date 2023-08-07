@@ -1,24 +1,22 @@
 .containerNavbar {
-  display: flex!important;
+  width: 100%;
+  height: 10vh;
+  display: flex;
   justify-content: space-between;
+  background-color: #fff159;
   align-items: center;
   padding: 10px;
-  margin: 10px; 
-  box-sizing:border-box;
-  width: 100%;
 }
 .categories {
-  gap: 10px;
-  font-size:larger;
-  
-}
-header{
-  height: 100px;
-  width: 100%;
   display: flex;
-  justify-content: center;
-  background-color: #fff159;
-  border: 0;
-  position: relative;
-  box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
+.categories a {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+

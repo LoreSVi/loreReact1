@@ -2,14 +2,13 @@
   width: 100%;
   min-height: 90vh;
   display: flex;
-  position: sticky;
+  position:relative;
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
-  background-position: center;
+  padding-top: 50px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  
 }
