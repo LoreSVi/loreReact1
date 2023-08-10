@@ -9,9 +9,9 @@
 }
 .categories {
   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 .categories a {
   width: 100px;
@@ -20,3 +20,17 @@
   border-radius: 10px;
 }
 
+@media (width < 768px) {
+  .containerNavbar {
+    flex-direction: column;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: column;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .categories {
+    flex-direction: column;
+    align-items: start;
+  }
+}

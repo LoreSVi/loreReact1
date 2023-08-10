@@ -1,12 +1,10 @@
 import Checkout from "./Checkout";
-import {useFormik} from "formik";
-import * as Yup from "yup"
+import { useFormik } from "formik";
+import * as Yup from "yup";
 import { db } from "../../../firebaseConfig";
 import { collection, addDoc, updateDoc, doc } from "firebase/firestore";
 import { useContext, useState } from "react";
 import { CartContext } from "../../../context/CartContext";
-import { green } from "@mui/material/colors";
-
 
 const CheckoutContainer = () => {
   const { cart, getTotalPrice, clearCart } = useContext(CartContext);
@@ -23,8 +21,6 @@ const CheckoutContainer = () => {
     },
 
     onSubmit: (data) => {
-      
-
       let order = {
         buyer: data,
         items: cart,
@@ -39,7 +35,6 @@ const CheckoutContainer = () => {
           stock: product.stock - product.quantity,
         });
       });
-
 
       clearCart();
     },
@@ -59,16 +54,27 @@ const CheckoutContainer = () => {
   });
 
   return (
-    <div className="maincontainer" style={{backgroundColor: "rgb(125, 136, 41)"}}>
+    <div className="maincontainer">
       {orderId ? (
-         <div className="compraOk" style={{display:"flex", flexDirection:"column", alignItems:"center"}} >
-         <img style={{width:"150px"}} src="https://res.cloudinary.com/dtgaqvham/image/upload/v1689859539/regaloperrito_aq3cei.png"></img>
-        <h4>Gracias por elegirnos!
-        <br/>
-       <br/>
-         Su compra fue exitosa, el numero de comprobante es: {orderId}
-         </h4>
-         </div>
+        <div
+          className="compraOk"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <img
+            style={{ width: "150px" }}
+            src="https://res.cloudinary.com/dtgaqvham/image/upload/v1689859539/regaloperrito_aq3cei.png"
+          ></img>
+          <h4>
+            Gracias por elegirnos!
+            <br />
+            <br />
+            Su compra fue exitosa, el numero de comprobante es: {orderId}
+          </h4>
+        </div>
       ) : (
         <Checkout
           handleSubmit={handleSubmit}
@@ -80,5 +86,4 @@ const CheckoutContainer = () => {
   );
 };
 
-
-export default CheckoutContainer
+export default CheckoutContainer;

@@ -17,7 +17,7 @@ const ProductCard = ({ elemento }) => {
         image={elemento.img}
         title="green iguana"
       />
-      <CardContent sx={{ height: 120 }}>
+      <CardContent sx={{ height: 150 }}>
         <Typography
           gutterBottom
           variant="h6"

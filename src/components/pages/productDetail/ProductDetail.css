@@ -7,7 +7,6 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 8px;
-  background-color: rgb(125, 136, 41);
   background-position: center;
   background-repeat: no-repeat;
   background-size:auto;
@@ -17,7 +16,7 @@
 
 .item-card {
   display: flexbox;
-  background-color:#c7ccea;
+  background-color:#eae2c7;
   color:black;
   border-color: black;
   padding: 40px;
