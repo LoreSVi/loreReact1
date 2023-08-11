@@ -13,11 +13,11 @@ export const ItemCount = ({ stock, initial = 1, onAdd }) => {
       <div style={{ marginBottom: "5px", display: "flex", gap: "20px" }}>
         {!isAdd && (
           <>
-            <Button variant="contained" onClick={decrement}>
+            <Button variant="contained" color="secondary" onClick={decrement}>
               -
             </Button>
             <h2>{count}</h2>
-            <Button variant="contained" onClick={increment}>
+            <Button variant="contained" color="secondary" onClick={increment}>
               +
             </Button>
           </>
@@ -26,6 +26,7 @@ export const ItemCount = ({ stock, initial = 1, onAdd }) => {
         {isAdd ? (
           <Button
             variant="contained"
+            color="secondary"
             onClick={() => {
               navigate("/carrito");
             }}
@@ -35,6 +36,7 @@ export const ItemCount = ({ stock, initial = 1, onAdd }) => {
         ) : (
           <Button
             variant="contained"
+            color="secondary"
             onClick={() => {
               onAdd(count);
               setIsAdd(true);
