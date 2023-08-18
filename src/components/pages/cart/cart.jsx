@@ -49,7 +49,9 @@ const Cart = ({ cart, limpiar, removeById, total, totalItems }) => {
             </div>
           ) : (
             <Link to="/">
-              <Button variant="contained">Agrega productos</Button>
+              <Button variant="contained" color="secondary">
+                Agrega productos
+              </Button>
             </Link>
           )}
 

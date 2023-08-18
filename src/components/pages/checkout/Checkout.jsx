@@ -29,7 +29,7 @@ const Checkout = ({ handleSubmit, handleChange, errors }) => {
           helperText={errors.phone}
           error={errors.phone ? true : false}
         />
-        <Button variant="contained" type="submit">
+        <Button variant="contained" color="secondary" type="submit">
           Comprar
         </Button>
       </form>
