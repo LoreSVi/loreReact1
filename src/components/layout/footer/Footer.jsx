@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <h4>Para consultas puedes visitar nuestras redes:</h4>
       <FacebookIcon fontSize="large" color="primary" />
-    
+      
     </div>
   );
 };
