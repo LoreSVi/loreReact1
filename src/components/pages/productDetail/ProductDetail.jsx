@@ -6,10 +6,10 @@ const ProductDetail = ({ productSelected, cantidad, onAdd }) => {
     <>
        <div className="card">
         <div className="item-card">
-        <h2>{productSelected.title}</h2>
+        <h4>{productSelected.title}</h4>
         <img src={productSelected.img} alt="" />
-         <h4>{productSelected.description}</h4>
-         <h4>${productSelected.price}</h4>
+         <p>{productSelected.description}</p>
+         <p>${productSelected.price}</p>
      </div>
       {productSelected.stock > 0 ? (
         <div style={{ display: "flex", justifyContent: "center" }}>
@@ -20,7 +20,7 @@ const ProductDetail = ({ productSelected, cantidad, onAdd }) => {
           />
         </div>
       ) : (
-        <h2>No hay stock</h2>
+        <h4>No hay stock</h4>
       )}
 
     </div>

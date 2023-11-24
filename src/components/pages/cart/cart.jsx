@@ -12,9 +12,9 @@ const Cart = ({ cart, limpiar, removeById, total, totalItems }) => {
               <div key={item.id} className="cart-item">
                 <img src={item.img} alt="" />
                 <div className="cart-item-info">
-                  <h2>{item.name}</h2>
-                  <h2>${item.price}.-</h2>
-                  <h2>Unidades: {item.quantity}</h2>
+                  <h4>{item.name}</h4>
+                  <h4>${item.price}.-</h4>
+                  <h4>Unidades: {item.quantity}</h4>
                 </div>
                 <Button
                   variant="contained"
@@ -28,9 +28,9 @@ const Cart = ({ cart, limpiar, removeById, total, totalItems }) => {
           })}
         </div>
         <div className="cart-info">
-          <h2>Descripcion del carrito:</h2>
-          <h3>Cantidad de productos: {totalItems}</h3>
-          <h3>Precio total: {total}</h3>
+          <h3>Descripcion del carrito:</h3>
+          <h5>Cantidad de productos: {totalItems}</h5>
+          <h5>Precio total: {total}</h5>
           {cart.length > 0 ? (
             <div className="btn-cart">
               <Button onClick={limpiar} variant="contained" color="secondary">
@@ -55,7 +55,7 @@ const Cart = ({ cart, limpiar, removeById, total, totalItems }) => {
             </Link>
           )}
 
-          <h1>El total del carrito es ${total}</h1>
+          <h5>El total del carrito es ${total}</h5>
         </div>
       </div>
     </div>

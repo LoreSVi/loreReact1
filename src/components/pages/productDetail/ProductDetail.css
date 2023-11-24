@@ -1,5 +1,5 @@
 .card {
-  width: 70%;
+  width: 40%;
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -7,19 +7,17 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 8px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:auto;
-  margin-left: 20px;
+  margin-left: 10px;
   border-radius: 20px;
+  background-color: #e6c7ea !important;
+  
 }
 
 .item-card {
   display: flexbox;
-  background-color:#eae2c7;
-  color:black;
+  background-color: #e6c7ea;
+  color: rgb(24, 24, 24);
   border-color: black;
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
 }
-

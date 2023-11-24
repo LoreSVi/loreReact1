@@ -16,7 +16,7 @@ export const ItemCount = ({ stock, initial = 1, onAdd }) => {
             <Button variant="contained" color="secondary" onClick={decrement}>
               -
             </Button>
-            <h2>{count}</h2>
+            <h5>{count}</h5>
             <Button variant="contained" color="secondary" onClick={increment}>
               +
             </Button>
